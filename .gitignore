@@ -1,0 +1,23 @@
+# Model files too large for GitHub
+models/faster_rcnn*/
+
+# Dataset
+dataset/
+
+# Test and output videos
+test_videos/
+output/
+
+# Credentials - NEVER commit these
+*.env
+secrets.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
