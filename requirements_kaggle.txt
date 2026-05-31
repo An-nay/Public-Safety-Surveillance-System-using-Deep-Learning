@@ -1,0 +1,13 @@
+# requirements_colab.txt
+# For Google Colab — training notebook and video prediction
+# Install with: pip install -r requirements_colab.txt
+
+tensorflow==2.12.0
+keras==2.12.0
+numpy==1.23.5
+opencv-python==4.8.1.78
+albumentations
+imutils
+scikit-learn
+matplotlib
+tqdm

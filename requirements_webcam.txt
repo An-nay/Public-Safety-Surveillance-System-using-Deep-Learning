@@ -1,0 +1,20 @@
+# requirements_webcam.txt
+# For local webcam script on Apple Silicon Mac (M1/M2/M3)
+# Python 3.11 via pyenv required
+#
+# Setup:
+#   python -m venv venv_violence
+#   source venv_violence/bin/activate
+#   pip install -r requirements_webcam.txt
+#
+# DO NOT install tf_keras — it pulls in tensorflow 2.21 which breaks numpy compatibility
+
+tensorflow-macos==2.12.0
+tensorflow-metal==0.8.0
+keras==2.12.0
+numpy==1.23.5
+opencv-python-headless==4.8.1.78
+telepot
+geopy
+pytz
+ultralytics
