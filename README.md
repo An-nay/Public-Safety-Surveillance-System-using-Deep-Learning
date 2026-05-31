@@ -141,7 +141,7 @@ Real Life Violence Dataset/
 | Macro avg | 0.90 | 0.90 | 0.90 | 5355 |
 | Weighted avg | 0.90 | 0.90 | 0.90 | 5355 |
 
-No data leakage ✅
+No data leakage 
 
 ### v1 Model (frame-level split, data leakage) — not recommended
 
@@ -151,7 +151,7 @@ No data leakage ✅
 | F1 Score | 0.985 |
 | Precision | 0.987 |
 | Recall | 0.984 |
-| Data leakage | ❌ |
+| Data leakage | Yes |
 
 Architecture: MobileNetV2 (ImageNet weights, frozen base, last 30 layers unfrozen) + GAP → Dropout(0.5) → Dense(256, relu, L2) → Dropout(0.3) → Dense(1, sigmoid)  
 Training: 25 epochs, early stopping, AdamW optimiser, label smoothing, batch size 4
