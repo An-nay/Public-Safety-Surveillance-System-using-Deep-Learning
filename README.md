@@ -261,8 +261,6 @@ python telebot_webcam.py   # uses HOG instead of YOLOv8
 
 ## Future Scope
 
-- ✅ YOLOv8 human detection gate integrated for webcam (completed)
-- ✅ Video-level split to fix data leakage (completed)
 - Multi-modal analysis combining audio and video
 - Real-time streaming from IP/CCTV cameras
 - Face blurring for privacy-preserving detection
